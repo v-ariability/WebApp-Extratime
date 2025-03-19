@@ -1,14 +1,11 @@
 'use client'
-import React,{useContext} from "react";
-import {AppContext} from '@/context/wrapper'
+import React from "react";
+import Index from "./index/page";
 export default function Home() {
-
-
-  const {sample} = useContext(AppContext)
 
   return (
     <div>
-      {sample}
+      <Index />
     </div>
   );
 }
