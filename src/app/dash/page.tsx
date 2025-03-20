@@ -1,14 +1,12 @@
 'use client'
-import React,{useContext} from 'react'
-import {AppContext} from '@/context/wrapper'
+import React from 'react'
 import Header from '@/components/Index/Header'
 import Hero from '@/components/Index/Hero'
 import Community from '@/components/Index/Community'
 
 
-const Index = () => {
+const Dash = () => {
 
-    const {sample} = useContext(AppContext)
   return (
     <div>
         <Header />
@@ -18,4 +16,4 @@ const Index = () => {
   )
 }
 
-export default Index
+export default Dash

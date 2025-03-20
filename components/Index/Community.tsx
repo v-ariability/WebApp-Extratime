@@ -19,12 +19,12 @@ const Community = () => {
                     <li><p className='px-[12px] py-[4px] text-[14px] font-[500] rounded-[48px] bg-[var(--subwhite)]' >Progress Tracking</p></li>
                     <li><p className='px-[12px] py-[4px] text-[14px] font-[500] rounded-[48px] bg-[var(--subwhite)]' >Find Partner</p></li>
                 </ul>
-                <p className='text-[var(--sublack)] mt-[16px] text-[16px] font-[400]' >Join a thriving community of sports enthusiasts! Connect with like-minded players, <br /> create or join matches, share experiences, and compete on leaderboards. Track your <br /> progress, earn badges, and celebrate every achievement as you level up your game. <br /> Whether you're in it for a friendly match or serious competition, this is where the sports <br /> community comes alive—because every match counts, and every milestone matters</p>
+                <p className='text-[var(--sublack)] mt-[16px] text-[16px] font-[400]' >Join a thriving community of sports enthusiasts! Connect with like-minded players, <br /> create or join matches, share experiences, and compete on leaderboards. Track your <br /> progress, earn badges, and celebrate every achievement as you level up your game. <br /> Whether you&apos;re in it for a friendly match or serious competition, this is where the sports <br /> community comes alive—because every match counts, and every milestone matters</p>
             </div>
 
             <div>
                 <p className='!text-[#04040420] text-[208px] font-[500] text-right' >1K+</p>
-                <p className='text-right text-[var(--sublack)] text-[14px] font-[400]' >Join a growing community of <span className='font-[500]' >active players</span> across all our top-tier <br /> sports facilities. With thousands of athletes booking matches, <br /> competing, and connecting every day, you're never far from your <br /> next great game.</p>
+                <p className='text-right text-[var(--sublack)] text-[14px] font-[400]' >Join a growing community of <span className='font-[500]' >active players</span> across all our top-tier <br /> sports facilities. With thousands of athletes booking matches, <br /> competing, and connecting every day, you&apos;re never far from your <br /> next great game.</p>
             </div>
 
         </div>

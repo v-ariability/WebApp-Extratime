@@ -1,11 +1,11 @@
 'use client'
 import React from "react";
-import Index from "./index/page";
+import Dash from "./dash/page";
 export default function Home() {
 
   return (
     <div>
-      <Index />
+      <Dash />
     </div>
   );
 }
