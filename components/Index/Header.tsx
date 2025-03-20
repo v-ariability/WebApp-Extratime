@@ -16,7 +16,7 @@ const Header = () => {
 
         <div className='flex gap-[6px]' >
             <button className='cursor-pointer px-[28px] py-[14px] bg-[var(--background)] rounded-[48px]' ><p>MEMBERSHIP</p></button>
-            <button className='cursor-pointer px-[28px] py-[14px] bg-[#FD7A49] rounded-[48px]' ><p className='text-[var(--background)]' >TURF OWNERS</p></button>
+            <button className='cursor-pointer px-[28px] py-[14px] bg-[#FD7A49] rounded-[48px]' ><p className='!text-[var(--background)]' >TURF OWNERS</p></button>
         </div>
 
     </div>
