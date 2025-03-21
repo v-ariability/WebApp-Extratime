@@ -11,7 +11,7 @@ const Faculties = () => {
 
         <div className='mt-[48px]' >
             <p className='text-[56px] font-[500] text-center' >Explore our facilities</p>
-            <p className='text-[16px] font-[400] text-center mt-[24px]' >From high-quality turfs and professional-grade courts to fully-equipped arenas, our facilities are designed for every athlete. Whether <br /> you're playing for fun or competing at the highest level, experience top-tier sports environments that enhance your game. Find the perfect <br /> venue and play without limits</p>
+            <p className='text-[16px] font-[400] text-center mt-[24px]' >From high-quality turfs and professional-grade courts to fully-equipped arenas, our facilities are designed for every athlete. Whether <br /> you&apos;re playing for fun or competing at the highest level, experience top-tier sports environments that enhance your game. Find the perfect <br /> venue and play without limits</p>
         </div>
 
         <div className='bg-[var(--subwhite)] rounded-[18px] py-[24px] px-[30px] mt-[24px]' >
@@ -23,7 +23,7 @@ const Faculties = () => {
                 <button className='px-[52px] py-[12px] rounded-[28px] text-[18px] font-[500] bg-[var(--orange)] !text-[var(--background)]' >View all</button>
             </div>
             <Image src={'/index/GoogleMapsWidget.png'} className='!w-[100%] mt-[32px]' width={1000} height={1500} alt='map' />
-            <p className='text-[16px] text-center font-[400] mt-[32px]' >Find top sports facilities near you with ease! Whether it's a turf, court, or arena, locate the perfect venue for your <br /> next game in just a few taps. Play at the best spots, anytime, anywhere</p>
+            <p className='text-[16px] text-center font-[400] mt-[32px]' >Find top sports facilities near you with ease! Whether it&apos;s a turf, court, or arena, locate the perfect venue for your <br /> next game in just a few taps. Play at the best spots, anytime, anywhere</p>
 
             <div className='flex justify-between gap-[24px] mt-[24px]' >
 
