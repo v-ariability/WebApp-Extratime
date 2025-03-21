@@ -6,7 +6,7 @@ const Community = () => {
     <div className='mx-[28px] mt-[98px]' >
 
         <div className='flex items-center' >
-            <p className='w-[48px] h-[48px] flex justify-center items-center bg-[#040404] text-[var(--background)] rounded-full' >1</p>        
+            <p className='w-[48px] h-[48px] flex justify-center items-center bg-[#040404] !text-[var(--background)] rounded-full' >1</p>        
             <p className='px-[24px] py-[12px] rounded-[28px] bg-[var(--subwhite)]' >COMMUNITY</p>        
         </div>
 
@@ -15,7 +15,7 @@ const Community = () => {
             <div>
                 <p className='text-[var(--sublack)] text-[56px] leading-[64px] font-[500] mt-[48px]' >Powered by players, Built for <br /> the community.</p>
                 <ul className='flex gap-[12px] mt-[32px]' >
-                    <li><p className='px-[12px] py-[4px] text-[14px] font-[500] rounded-[48px] bg-[var(--orange)]' >Milestone Badges</p></li>
+                    <li><p className='px-[12px] py-[4px] text-[14px] font-[500] rounded-[48px] bg-[var(--orange)] !text-[var(--background)]' >Milestone Badges</p></li>
                     <li><p className='px-[12px] py-[4px] text-[14px] font-[500] rounded-[48px] bg-[var(--subwhite)]' >Progress Tracking</p></li>
                     <li><p className='px-[12px] py-[4px] text-[14px] font-[500] rounded-[48px] bg-[var(--subwhite)]' >Find Partner</p></li>
                 </ul>
