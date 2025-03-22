@@ -10,7 +10,7 @@ const Faculties = () => {
         </div>
 
         <div className='mt-[48px]' >
-            <p className='text-[56px] font-[500] text-center' >Explore our facilities</p>
+            <p className='text-[56px] font-[500] text-center' >Explore our facilities.</p>
             <p className='text-[16px] font-[400] text-center mt-[24px]' >From high-quality turfs and professional-grade courts to fully-equipped arenas, our facilities are designed for every athlete. Whether <br /> you&apos;re playing for fun or competing at the highest level, experience top-tier sports environments that enhance your game. Find the perfect <br /> venue and play without limits</p>
         </div>
 
