@@ -13,7 +13,7 @@ const Community = () => {
         <div className='flex justify-between items-center' >
 
             <div>
-                <p className='text-[var(--sublack)] text-[56px] leading-[64px] font-[500] mt-[48px]' >Powered by players, Built for <br /> the community.</p>
+                <p className='text-[var(--sublack)] text-[56px] leading-[64px] font-[500] mt-[48px]' >Powered by players, Built for <br /> the community</p>
                 <ul className='flex gap-[12px] mt-[32px]' >
                     <li><p className='px-[12px] py-[4px] text-[14px] font-[500] rounded-[48px] bg-[var(--orange)] !text-[var(--background)]' >Milestone Badges</p></li>
                     <li><p className='px-[12px] py-[4px] text-[14px] font-[500] rounded-[48px] bg-[var(--subwhite)]' >Progress Tracking</p></li>
@@ -42,7 +42,7 @@ const Community = () => {
 
         <div className='mt-[48px] flex flex-col justify-center items-center' >
             <p className='text-center text-[32px] font-[500]' >Build champions on & off courts</p>
-            <p className='text-center mt-[24px]' >Great athletes are made through dedication and the right environment. Our top-tier facilities provide the perfect space <br /> to sharpen your skills, compete at your best, and grow as a champion—both on and off the field</p>
+            <p className='text-center mt-[24px]' >Great athletes are made through dedication and the right environment. Our top-tier facilities provide the perfect space <br /> to sharpen your skills, compete at your best, and grow as a champion—both on and off the field.</p>
             <p className='text-center mt-[36px] !text-[var(--background)] bg-[var(--sublack)] rounded-[28px] px-[75px] py-[12px] w-fit' >JOIN THE CLUB</p>
         </div>
     </div>

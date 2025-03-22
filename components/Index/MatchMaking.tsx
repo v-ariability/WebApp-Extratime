@@ -12,7 +12,7 @@ const MatchMaking = () => {
         <div className='mt-[48px] flex justify-between items-center' >
 
             <div  >
-                <p className='text-[56px] leading-[64px] font-[500]' >Matchmaking –<br />Play, Connect, Compete.</p>
+                <p className='text-[56px] leading-[64px] font-[500]' >Matchmaking –<br />Play, Connect, Compete</p>
                 <p className='text-[16px] font-[400] mt-[32px]' >No team? No problem! Our matchmaking feature helps you find like-minded players <br /> and join exciting matches effortlessly. Whether you&apos;re looking for a friendly game or <br /> serious competition, connect with others and get in the game.</p>
                 <p className='text-[24px] font-[500] mt-[56px]' >How it works?</p>
                 <ul className='flex flex-row gap-[24px] mt-[24px]' >

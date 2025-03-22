@@ -9,8 +9,8 @@ const Payments = () => {
         </div>
 
         <div className='flex flex-col items-center' >
-          <p className='text-[56px] font-[500] leading-[64px] text-center mt-[48px]' >Seamless payments & <br /> Hassle-Free refunds.</p>
-          <p className='text-[18px] font-[400] text-center mt-[24px]' >Focus on the game, not the transaction! Enjoy secure, fast, and hassle-free payments with multiple options, including UPI, <br /> cards, and wallets. Need to cancel? Our smooth refund process ensures quick and easy reimbursements, so you <br /> can book with confidence every time</p>
+          <p className='text-[56px] font-[500] leading-[64px] text-center mt-[48px]' >Seamless payments & <br /> Hassle-Free refunds</p>
+          <p className='text-[18px] font-[400] text-center mt-[24px]' >Focus on the game, not the transaction! Enjoy secure, fast, and hassle-free payments with multiple options, including UPI, <br /> cards, and wallets. Need to cancel? Our smooth refund process ensures quick and easy reimbursements, so you <br /> can book with confidence every time.</p>
 
           <ul className='flex mt-[24px] ' >
             <li><p className='px-[18px] py-[4px] font-[500] text-[14px] rounded-[48px] bg-[var(--subwhite)]' >UPI Payment</p></li>
