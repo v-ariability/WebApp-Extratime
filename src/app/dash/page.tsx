@@ -3,6 +3,9 @@ import React from 'react'
 import Header from '@/components/Index/Header'
 import Hero from '@/components/Index/Hero'
 import Community from '@/components/Index/Community'
+import MatchMaking from '@/components/Index/MatchMaking'
+import Faculties from '@/components/Index/Faculties'
+import Payments from '@/components/Index/Payments'
 
 
 const Dash = () => {
@@ -12,6 +15,9 @@ const Dash = () => {
         <Header />
         <Hero />
         <Community />
+        <MatchMaking />
+        <Faculties />
+        <Payments />
     </div>
   )
 }
