@@ -22,14 +22,14 @@ const Community = () => {
                 <p className='text-[var(--sublack)] mt-[16px] text-[16px] font-[400]' >Join a thriving community of sports enthusiasts! Connect with like-minded players, <br /> create or join matches, share experiences, and compete on leaderboards. Track your <br /> progress, earn badges, and celebrate every achievement as you level up your game. <br /> Whether you&apos;re in it for a friendly match or serious competition, this is where the sports <br /> community comes alive—because every match counts, and every milestone matters.</p>
             </div>
 
-            <div>
+            <div className='md:hidden' >
                 <p className='!text-[#04040420] text-[208px] font-[500] text-right' >1K+</p>
                 <p className='text-right text-[var(--sublack)] text-[14px] font-[400]' >Join a growing community of <span className='font-[500]' >active players</span> across all our top-tier <br /> sports facilities. With thousands of athletes booking matches, <br /> competing, and connecting every day, you&apos;re never far from your <br /> next great game.</p>
             </div>
 
         </div>
 
-        <div className='mt-[48px]' >
+        <div className='mt-[48px] md:hidden' >
             <p className='text-[24px] text-[]' >Active Members</p>
             <ul className='mt-[36px] flex gap-[24px]' >
                 <li><Image alt='Eclipse' src={'/index/Ellipse1.png'} width={150} height={150} /></li>
@@ -40,11 +40,35 @@ const Community = () => {
             </ul>
         </div>
 
+        <div className='lg:hidden md:flex justify-between items-center' >
+            <div className='mt-[48px] lg:hidden md:flex flex-col' >
+                <p className='text-[24px] text-[]' >Active Members</p>
+                <ul className='mt-[28px] flex gap-[16px] flex-col' >
+                    <div className='flex gap-[24px]' >
+                        <li><Image alt='Eclipse' src={'/index/Ellipse1.png'} width={100} height={100} /></li>
+                        <li><Image alt='Eclipse' src={'/index/Ellipse2.png'} width={100} height={100} /></li>
+                    </div>
+                    <div className='flex gap-[24px]' >
+                        <li><Image alt='Eclipse' src={'/index/Ellipse3.png'} width={100} height={100} /></li>
+                        <li><Image alt='Eclipse' src={'/index/Ellipse4.png'} width={100} height={100} /></li>
+                        <li className='!text-[var(--orange)] text-[16px] font-[500] w-[100px] h-[100px] flex justify-center items-center bg-[var(--subwhite)] rounded-full' >You?</li>
+                    </div>
+                </ul>
+            </div>
+
+            <div className='lg:hidden md:flex flex-col' >
+                <p className='!text-[#04040420] text-[188px] font-[500] text-right' >1K+</p>
+                <p className='text-right text-[var(--sublack)] text-[14px] font-[400] mt-[-30px]' >Join a growing community of <span className='font-[500]' >active players</span> across all our top-tier <br /> sports facilities. With thousands of athletes booking matches, <br /> competing, and connecting every day, you&apos;re never far from your <br /> next great game.</p>
+            </div>
+        </div>
+
         <div className='mt-[48px] flex flex-col justify-center items-center' >
             <p className='text-center text-[32px] font-[500]' >Build champions on & off courts</p>
             <p className='text-center mt-[24px]' >Great athletes are made through dedication and the right environment. Our top-tier facilities provide the perfect space <br /> to sharpen your skills, compete at your best, and grow as a champion—both on and off the field.</p>
             <p className='text-center mt-[36px] !text-[var(--background)] bg-[var(--sublack)] rounded-[28px] px-[75px] py-[12px] w-fit' >JOIN THE CLUB</p>
         </div>
+
+        
     </div>
   )
 }
