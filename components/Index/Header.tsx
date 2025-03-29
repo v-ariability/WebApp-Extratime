@@ -1,7 +1,10 @@
 import Image from 'next/image'
-import React from 'react'
-
+import React,{useContext} from 'react'
+import { AppContext } from '@/context/wrapper'
 const Header = () => {
+
+  const {setNavbar} = useContext(AppContext)
+
   return (
     <div className='flex flex-row justify-between items-center lg:mx-[28px] md:mx-[28px] mx-[14px] mt-[24px] px-[24px] py-[19px] bg-[#F3F3F3] rounded-[48px]' >
 
@@ -20,7 +23,7 @@ const Header = () => {
             <button className='text-[14px] cursor-pointer px-[28px] py-[14px] bg-[#FD7A49] rounded-[48px]' ><p className='!text-[var(--background)]' >TURF OWNERS</p></button>
         </div>
 
-        <button className='bg-[var(--orange)] p-[12] rounded-[8px] lg:hidden ' >
+        <button onClick={()=>setNavbar(true)} className='bg-[var(--orange)] p-[12] rounded-[8px] lg:hidden ' >
           <Image src={'/index/menu01.png'} width={24} height={24} alt='hamburger' />
         </button>
 

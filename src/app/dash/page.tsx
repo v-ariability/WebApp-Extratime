@@ -10,12 +10,14 @@ import Inspiration from '@/components/Index/Inspiration'
 import ListYourTurf from '@/components/Index/ListYourTurf'
 import Contact from '@/components/Index/Contact'
 import Footor from '@/components/Index/Footor'
+import Navbar from '@/components/Index/Navbar'
 
 
 const Dash = () => {
 
   return (
     <div >
+        <Navbar />
         <Header />
         <Hero />
         <Community />

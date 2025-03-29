@@ -2,20 +2,20 @@
 import React, { createContext, useState } from 'react';
 
 interface AppContextType {
-  sample: string;
-  setSample: React.Dispatch<React.SetStateAction<string>>;
+  navbar: boolean;
+  setNavbar: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
 export const AppContext = createContext<AppContextType>({} as AppContextType);
 
 export function AppWrapper({ children }: { children: React.ReactNode }) {
 
-  const [sample,setSample] = useState('some sample')
+  const [navbar,setNavbar] = useState(false);
 
   return (
     <AppContext.Provider value={{ 
-      sample,
-      setSample       
+      navbar,
+      setNavbar     
         }}>
       {children}
     </AppContext.Provider>
