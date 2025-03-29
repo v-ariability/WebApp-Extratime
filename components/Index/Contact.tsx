@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className='mt-[98px] mx-[14px] md:mx-[28px] lg:mx-[28px]' >
+    <div className='lg:mt-[98px] md:mt-[56px] mt-[48px] mx-[14px] md:mx-[28px] lg:mx-[28px]' >
 
         <div className='flex items-center ' >
             <p className='lg:w-[48px] lg:h-[48px] md:w-[48px] md:h-[48px] w-[36px] h-[36px] flex justify-center items-center bg-[#040404] !text-[var(--background)] rounded-full' >7</p>        
@@ -55,12 +55,12 @@ const Contact = () => {
  
                 </div>
 
-                <div className='mt-[24px] flex flex-1 flex-col' >
+                <div className='lg:mt-[24px] md:mt-[24px] mt-[20px] flex flex-1 flex-col' >
                     <p className='lg:text-[14px] md:text-[14px] text-[8px] font-[400]' >EMAIL ADDRESS  <span className='!text-[#ff0000]' >*</span></p>
                     <input className='lg:mt-[8px] md:mt-[8px] mt-[6px] px-[20px] py-[10px] rounded-[12px] bg-[var(--subwhite)] placeholder:text-[12px]  flex flex-1 lg:w-full md:w-[63%]' type="text" placeholder='Enter your email Address' name="" id="" />
                 </div>
  
-                <div className='mt-[24px] flex flex-1 flex-col' >
+                <div className='lg:mt-[24px] md:mt-[24px] mt-[20px] flex flex-1 flex-col' >
                     <p className='lg:text-[14px] md:text-[14px] text-[8px] font-[400]' >YOUR MESSAGE  <span className='!text-[#ff0000]' >*</span></p>
                     <textarea rows={6} className='mt-[8px] px-[20px] py-[10px] rounded-[12px] bg-[var(--subwhite)] placeholder:text-[12px]  flex flex-1' placeholder='Enter your email Address' name="" id="" />
                 </div>

@@ -3,7 +3,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div className='flex flex-row justify-between items-center mx-[28px] my-[24px] px-[24px] py-[19px] bg-[#F3F3F3] rounded-[48px]' >
+    <div className='flex flex-row justify-between items-center lg:mx-[28px] md:mx-[28px] mx-[14px] mt-[24px] px-[24px] py-[19px] bg-[#F3F3F3] rounded-[48px]' >
 
         <div className='flex flex-row gap-[24px] items-center' >
             <p className='text-[18px] md:text-[24px] lg:text-[24px] font-[600] tracking-[-5%]' >EXTRATIME</p>

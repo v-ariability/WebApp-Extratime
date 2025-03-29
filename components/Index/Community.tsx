@@ -3,33 +3,33 @@ import React from 'react'
 
 const Community = () => {
   return (
-    <div className='mx-[14px] md:mx-[28px] lg:mx-[28px] mt-[98px]' >
+    <div className='mx-[14px] md:mx-[28px] lg:mx-[28px] lg:mt-[98px] md:mt-[56px] mt-[48px]' >
 
         <div className='flex items-center' >
             <p className=' lg:w-[48px] lg:h-[48px] md:w-[48px] md:h-[48px] w-[36px] h-[36px] flex justify-center items-center bg-[#040404] !text-[var(--background)] rounded-full' >1</p>        
             <p className='px-[24px] py-[12px] rounded-[28px] bg-[var(--subwhite)] text-[14px] lg:text-[18px] md:text-[18px]' >COMMUNITY</p>        
         </div>
 
-        <div className='md:flex lg:flex justify-between items-center' >
+        <div className='md:flex lg:flex justify-between items-center lg:mt-[48px] md:mt-[48px] mt-[24px]' >
 
             <div>
-                <p className='text-[var(--sublack)] lg:text-[56px] md:text-[56px] text-[28px] lg:leading-[64px] md:leading-[64px] leading-[36px] font-[500] mt-[48px] w-[80%] ' >Powered by players, Built for  the community</p>
-                <ul className='lg:flex md:flex grid grid-cols-2 gap-[12px] mt-[32px]' >
+                <p className='text-[var(--sublack)] lg:text-[56px] md:text-[56px] text-[28px] lg:leading-[64px] md:leading-[64px] leading-[36px] font-[500] w-[80%] ' >Powered by players, Built for  the community</p>
+                <ul className='lg:flex md:flex grid grid-cols-2 gap-[12px] lg:mt-[32px] md:mt-[32px] mt-[14px]' >
                     <li><p className='px-[12px] py-[4px] text-[14px] font-[500] rounded-[48px] bg-[var(--orange)] !text-[var(--background)]' >Milestone Badges</p></li>
                     <li><p className='px-[12px] py-[4px] text-[14px] font-[500] rounded-[48px] bg-[var(--subwhite)]' >Progress Tracking</p></li>
                     <li><p className='px-[12px] py-[4px] text-[14px] font-[500] rounded-[48px] bg-[var(--subwhite)]' >Find Partner</p></li>
                 </ul>
-                <p className='text-[var(--sublack)] mt-[16px] lg:text-[16px] md:text-[16px] text-[14px] w-[85%] font-[400]' >Join a thriving community of sports enthusiasts! Connect with like-minded players, create or join matches, share experiences, and compete on leaderboards. Track your progress, earn badges, and celebrate every achievement as you level up your game. Whether you&apos;re in it for a friendly match or serious competition, this is where the sports community comes alive—because every match counts, and every milestone matters.</p>
+                <p className='text-[var(--sublack)] lg:mt-[16px] md:mt-[16px] mt-[18px] lg:text-[16px] md:text-[16px] text-[14px] lg:w-[67%] md:w-[80%] w-[85%] font-[400]' >Join a thriving community of sports enthusiasts! Connect with like-minded players, create or join matches, share experiences, and compete on leaderboards. Track your progress, earn badges, and celebrate every achievement as you level up your game. Whether you&apos;re in it for a friendly match or serious competition, this is where the sports community comes alive—because every match counts, and every milestone matters.</p>
             </div>
 
             <div className='md:hidden lg:block block' >
                 <p className='!text-[#04040420] text-[208px] font-[500] text-right' >1K+</p>
-                <p className='lg:text-right md:text-right text-center text-[var(--sublack)] text-[14px] font-[400] ' >Join a growing community of <span className='font-[500]' >active players</span> across all our top-tier sports facilities. With thousands of athletes booking matches, competing, and connecting every day, you&apos;re never far from your next great game.</p>
+                <p className='lg:text-right md:text-right text-center text-[var(--sublack)] text-[14px] font-[400] lg:mt-[0px] md:mt-[0px] mt-[-50px] ' >Join a growing community of <span className='font-[500]' >active players</span> across all our top-tier sports facilities. With thousands of athletes booking matches, competing, and connecting every day, you&apos;re never far from your next great game.</p>
             </div>
 
         </div>
 
-        <div className='mt-[48px] block lg:block md:hidden' >
+        <div className='lg:mt-[48px] md:mt-[48px] mt-[24px] block lg:block md:hidden' >
             <p className='lg:text-[24px] text-[18px]' >Active Members</p>
             <ul className='mt-[14px] lg:mt-[36px] flex gap-[14px] lg:gap-[24px]' >
                 <li><Image className='w-[50px] h-[50px] lg:w-[150px] lg:h-[150px]' alt='Eclipse' src={'/index/Ellipse1.png'} width={150} height={150} /></li>
@@ -58,7 +58,7 @@ const Community = () => {
 
             <div className='lg:hidden md:flex flex-col justify-end items-end' >
                 <p className='!text-[#04040420] text-[188px] font-[500] text-right' >1K+</p>
-                <p className='text-right text-[var(--sublack)] text-[14px] font-[400] mt-[-30px] md:w-[100%]' >Join a growing community of <span className='font-[500]' >active players</span> across all our top-tier sports facilities. With thousands of athletes booking matches, competing, and connecting every day, you&apos;re never far from your next great game.</p>
+                <p className='text-right text-[var(--sublack)] text-[14px] font-[400] mt-[-30px] md:w-[85%]' >Join a growing community of <span className='font-[500]' >active players</span> across all our top-tier sports facilities. With thousands of athletes booking matches, competing, and connecting every day, you&apos;re never far from your next great game.</p>
             </div>
         </div>
 

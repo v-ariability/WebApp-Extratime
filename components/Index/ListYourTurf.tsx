@@ -2,7 +2,7 @@ import React from 'react'
 
 const ListYourTurf = () => {
   return (
-    <div className='mt-[98px] mx-[14px] md:mx-[28px] lg:mx-[28px]' >
+    <div className='lg:mt-[98px] md:mt-[56px] mt-[48px] mx-[14px] md:mx-[28px] lg:mx-[28px]' >
 
         <div className='flex items-center ' >
             <p className='lg:w-[48px] lg:h-[48px] md:w-[48px] md:h-[48px] w-[36px] h-[36px] flex justify-center items-center bg-[#040404] !text-[var(--background)] rounded-full' >6</p>        
@@ -75,7 +75,7 @@ const ListYourTurf = () => {
             </div>
         </div>
 
-        <div className='flex items-center justify-center lg:mt-[98px] md:mt-[98px] mt-[24px]' >
+        <div className='flex items-center justify-center lg:mt-[98px] md:mt-[48px] mt-[24px]' >
             <button className='items-center lg:text-[18px] md:text-[18px] text-[14px] font-[400] px-[47px] py-[12px] rounded-[28px] bg-[var(--foreground))] !text-white ' >LIST YOUR TURF TODAY</button>
         </div>
 
